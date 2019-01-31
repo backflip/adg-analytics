@@ -1,0 +1,9 @@
+{
+  "public": true,
+  "version": 2,
+  "name": "adg-analytics",
+  "alias": "adg-analytics.now.sh",
+  "builds": [
+    { "src": "*.js", "use": "@now/node", "config": { "maxLambdaSize": "50mb" } }
+  ]
+}

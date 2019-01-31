@@ -1,0 +1,23 @@
+{
+  "name": "adg-analytics",
+  "version": "1.0.0",
+  "description": "Posting referer and country to Google form",
+  "main": "index.js",
+  "dependencies": {
+    "geoip-lite": "^1.3.5",
+    "micro": "^9.3.3",
+    "request": "^2.88.0",
+    "request-ip": "^2.1.3"
+  },
+  "devDependencies": {
+    "now": "^13.1.2"
+  },
+  "scripts": {
+    "start": "micro",
+    "deploy": "now && now alias",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Thomas Jaggi",
+  "license": "ISC"
+}
